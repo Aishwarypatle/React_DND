@@ -2,10 +2,13 @@ import React from "react";
 import DropBox from "./components/DropBox";
 
 const App = () => {
+
+
+
   return (
     <>
-      <section className="flex items-center justify-center w-screen h-screen">
-        <div className="container grid h-6/12 w-6/12 justify-center mb-32 py-8 sm:w-9/12 border-2 rounded-lg">
+      <section className="flex items-center justify-center w-full h-full">
+        <div className="container grid h-6/12 w-6/12 justify-center items-center mb-32 py-8 sm:w-9/12 border-2 rounded-lg mt-20">
           <h1 className="font-extrabold text-teal-500 sm:text-xl text-3xl m-auto mt-8 ">
             UPLOAD VIDEO HERE
           </h1>
